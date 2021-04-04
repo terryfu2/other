@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+      <title>terry fu | design</title>
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <link href="res/css2.css" rel="stylesheet">
+      <style>:root{--light: #faf8f8;--lightgray: #f0f0f0;--gray: #dddddd;--p: #606060;--dark: #284b63;--visited: #afbfc9;--secondary: #84a59d}.hover{color:var(--dark);text-decoration:none;display:inline-block;position:relative;opacity:.6;z-index:1}.hover::after{transition:300ms;height:20px;content:"";position:absolute;background-color:var(--secondary);opacity:.5;z-index:-1;width:0%;left:15px;bottom:0}header,.singlePost,#postTitle{display:flex;flex-direction:row;align-items:center;justify-content:space-between}#postTitle h1{margin-right:2em}header:hover .hover{opacity:1}header:hover .hover::after{width:100%}body{margin:0;background-color:var(--light)}.desc{flex:1}.desc *{display:inline-block}footer{margin-top:4em;text-align:center}hr{width:25%;margin:4em auto;height:2px;border-radius:1px;border-width:0;color:var(--dark);background-color:var(--dark)}.meta{margin-left:2em!important}#contentWrapper{margin:25px 30vw}@media all and (max-width:1200px){#contentWrapper{margin:25px 5vw}}@media all and (max-width:600px){header>nav{display:none}#postTitle{flex-direction:column;align-items:flex-start}}table{width:100%}img{width:100%;border-radius:3px;margin:1em 0}p>img+em{display:block;transform:translateY(-1em)}strong{color:#000}sup{line-height:0}#newsletter{margin:2em 0}#newsletter>input{padding:.7em 1em;border-radius:4px}#newsletter>input[type=submit]{border:none;color:var(--light);background-color:var(--dark);cursor:pointer}#newsletter>input[type=email]{background-color:var(--light);border:1px solid var(--gray);-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}</style>
+      <style>.singlePost *{margin:.1em auto}h1,h2,h3,h4,ol,ul,thead{font-family:Source Sans Pro}a,.time{font-family:Roboto Mono;font-weight:700;text-decoration:none;transition:all .2s ease}a{color:var(--dark)}a:hover{color:var(--secondary)!important}.postLink:visited{color:var(--visited)}#posts{list-style:none;padding:0;margin:0}p,tbody,li{font-family:Source Sans Pro;color:var(--p);line-height:1.5em}input{font-family:Source Sans Pro;color:var(--p)}h2{opacity:.85}h3{opacity:.75}blockquote{margin-left:0;border-left:3px solid var(--secondary);padding-left:1em}pre{font-family:Roboto Mono;padding:.75em;border-radius:3px;overflow-x:scroll}table{padding:1.5em}td,th{padding:.1em .5em}.footnotes p{margin:.5em 0}</style>
+      <style>.chroma{color:#272822;background-color:var(--lightgray)}.chroma .err{color:#960050;background-color:#1e0010}.chroma .lntd{vertical-align:top;padding:0;margin:0;border:0}.chroma .lntable{border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block}.chroma .hl{display:block;width:100%;background-color:#ffc}.chroma .lnt{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .ln{margin-right:.4em;padding:0 .4em;color:#7f7f7f}.chroma .k{color:#00a8c8}.chroma .kc{color:#00a8c8}.chroma .kd{color:#00a8c8}.chroma .kn{color:#f92672}.chroma .kp{color:#00a8c8}.chroma .kr{color:#00a8c8}.chroma .kt{color:#00a8c8}.chroma .n{color:#111}.chroma .na{color:#75af00}.chroma .nb{color:#111}.chroma .bp{color:#111}.chroma .nc{color:#75af00}.chroma .no{color:#00a8c8}.chroma .nd{color:#75af00}.chroma .ni{color:#111}.chroma .ne{color:#75af00}.chroma .nf{color:#75af00}.chroma .fm{color:#111}.chroma .nl{color:#111}.chroma .nn{color:#111}.chroma .nx{color:#75af00}.chroma .py{color:#111}.chroma .nt{color:#f92672}.chroma .nv{color:#111}.chroma .vc{color:#111}.chroma .vg{color:#111}.chroma .vi{color:#111}.chroma .vm{color:#111}.chroma .l{color:#ae81ff}.chroma .ld{color:#d88200}.chroma .s{color:#d88200}.chroma .sa{color:#d88200}.chroma .sb{color:#d88200}.chroma .sc{color:#d88200}.chroma .dl{color:#d88200}.chroma .sd{color:#d88200}.chroma .s2{color:#d88200}.chroma .se{color:#8045ff}.chroma .sh{color:#d88200}.chroma .si{color:#d88200}.chroma .sx{color:#d88200}.chroma .sr{color:#d88200}.chroma .s1{color:#d88200}.chroma .ss{color:#d88200}.chroma .m{color:#ae81ff}.chroma .mb{color:#ae81ff}.chroma .mf{color:#ae81ff}.chroma .mh{color:#ae81ff}.chroma .mi{color:#ae81ff}.chroma .il{color:#ae81ff}.chroma .mo{color:#ae81ff}.chroma .o{color:#f92672}.chroma .ow{color:#f92672}.chroma .p{color:#111}.chroma .c{color:#75715e}.chroma .ch{color:#75715e}.chroma .cm{color:#75715e}.chroma .c1{color:#75715e}.chroma .cs{color:#75715e}.chroma .cp{color:#75715e}.chroma .cpf{color:#75715e}.chroma .ge{font-style:italic}.chroma .gs{font-weight:700}</style>
+   </head>
+   <body>
+      <div id="contentWrapper">
+         <header>
+            <nav>
+                <a class="" href="index.html">/home</a>
+                <a class="" href="https://terryfu.ca">/site</a>
+                <a class="" href="https://github.com/terryfu33">/github</a>
+                <a href="https://github.com/terryfu33/365DaysLeetCode" target="_blank">/source</a>
+            </nav>
+         </header>
+         <main>
+            <h1>March 2021</h1>
+            <h2 class = "top">Table of Contents</h2>
+            <ul>
+                <li><a href = "#1">4. Median of Two Sorted Arrays</a></li>
+                <li><a href = "#2">98. Validate Binary Search Tree</a></li>
+                <li><a href = "#3">151. Reverse Words in a String</a></li>
+                <li><a href = "#4">179. Largest Number</a></li>
+                <li><a href = "#5">223. Rectangle Area</a></li>
+                <li><a href = "#6">231. Power of Two</a></li>
+                <li><a href = "#7">268. Missing Number</a></li>
+                <li><a href = "#8">287. Find the Duplicate Number</a></li>
+                <li><a href = "#9">448. Find All Numbers Disappeared in an Array</a></li>
+                <li><a href = "#10">669. Trim a Binary Search Tree</a></li>
+                <li><a href = "#11">910. Smallest Range II</a></li>
+                <li><a href = "#12">961. N-Repeated Element in Size 2N Array</a></li>
+                <li><a href = "#13">1051. Height Checker</a></li>
+                <li><a href = "#14">1395. Count Number of Teams</a></li>
+                <li><a href = "#15">1487. Making File Names Unique</a></li>
+                <li><a href = "#16">1769. Minimum Number of Operations to Move All Balls to Each Box</a></li>
+            </ul>
+            <hr>
+            <div id = "1">
+                <h3>4. Median of Two Sorted Arrays</h3>
+                <p>Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.</p>
+                <img src = "img/4.jpg"> 
+            </div>
+            <div id = "2">
+                <h3>98. Validate Binary Search Tree</h3>
+                <p>Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.</p>
+                <p>Runtime: 88 ms, faster than 78.93% </p>
+                <p>Memory Usage: 42.5 MB, less than 76.13% </p>   
+                <img src = "img/98.jpg">
+            </div>
+            <div id = "3">
+                <h3>151. Reverse Words in a String</h3>
+                <p>Given an input string s, reverse the order of the words.
+                    A word is defined as a sequence of non-space characters. The words in s will be separated by at least one space.
+                    Return a string of the words in reverse order concatenated by a single space.</p>
+                <p>Note that s may contain leading or trailing spaces or multiple spaces between two words. The returned string should only have a single 
+                    space separating the words. Do not include any extra spaces.</p>   
+                <img src = "img/151.jpg">
+            </div>
+            <div id = "4">
+                <h3>179. Largest Number</h3>
+                <p>  Given a list of non-negative integers nums, arrange them such that they form the largest number.
+                    Note: The result may be very large, so you need to return a string instead of an integer.</p>
+                <p>  Runtime: 72 ms, faster than 99.15% of JavaScript online submissions for Largest Number.</p>   
+                <img src = "img/179.jpg">
+            </div>
+            <div id = "5">
+                <h3>223. Rectangle Area</h3>
+                <p>  Given the coordinates of two rectilinear rectangles in a 2D plane, return the total area covered by the two rectangles.
+                    The first rectangle is defined by its bottom-left corner (A, B) and its top-right corner (C, D).
+                    The second rectangle is defined by its bottom-left corner (E, F) and its top-right corner (G, H).</p>
+                <p>  Runtime: 136 ms, faster than 94.06% of JavaScript online submissions for Rectangle Area.</p>   
+                <img src = "img/223.jpg">
+            </div>
+            <div id = "6">
+                <h3>231. Power of Two</h3>
+                <p>  Given an integer n, return true if it is a power of two. Otherwise, return false.
+                    An integer n is a power of two, if there exists an integer x such that n == 2x.</p>
+
+                <img src = "img/231.jpg">
+            </div>
+            <div id = "7">
+                <h3>268. Missing Number</h3>
+                <p>Given an array nums containing n distinct numbers in the range [0, n], return the only number 
+                    in the range that is missing from the array.</p>
+                <img src = "img/268.jpg">
+            </div>
+            <div id = "8">
+                <h3>287. Find the Duplicate Number</h3>
+                <p>Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.There is only one
+                repeated number in nums, return this repeated number.</p>
+                <img src = "img/287.jpg">
+            </div>
+            <div id = "9">
+                <h3>448. Find All Numbers Disappeared in an Array</h3>
+                <p>Given an array of integers where 1 ≤ a[i] ≤ n (n = size of array), 
+                    some elements appear twice and others appear once.
+                    Find all the elements of [1, n] inclusive that do not appear in this array.</p>
+                <img src = "img/448.jpg">
+            </div>
+            <div id = "10">
+                <h3>669. Trim a Binary Search Tree</h3>
+                <p>Given the root of a binary search tree and the lowest and highest boundaries as low and high, 
+                    trim the tree so that all its elements lies in [low, high]. Trimming the tree should not change the 
+                    relative structure of the elements that will remain in the tree (i.e., any node's descendant should remain a descendant). 
+                    It can be proven that there is a unique answer.</p>
+
+                <p>Return the root of the trimmed binary search tree. Note that the root may change depending on the given bounds.</p>
+                <img src = "img/669.jpg">
+            </div>
+            <div id = "11">
+                <h3>910. Smallest Range II</h3>
+                <p>Given an array A of integers, for each integer A[i] we need to choose 
+                    either x = -K or x = K, and add x to A[i] (only once).
+                    After this process, we have some array B.</p>
+
+                <p>Return the smallest possible difference between the maximum value of B and the minimum value of B.
+                </p>
+                <img src = "img/910.jpg">
+            </div>
+            <div id = "12">
+                <h3>961. N-Repeated Element in Size 2N Array</h3>
+                <p>In a array A of size 2N, there are N+1 unique elements, 
+                    and exactly one of these elements is repeated N times.
+                    Return the element repeated N times.</p>
+                <p>Runtime: 0 ms, faster than 100.00% of Java online submissions for N-Repeated Element in Size 2N Array.
+                </p>
+                <p>
+                    Memory Usage: 39.7 MB, less than 64.57% of Java online submissions for N-Repeated Element in Size 2N Array. 
+                </p>
+                <img src = "img/961.jpg">
+            </div>
+            <div id = "13">
+                <h3>1051. Height Checker</h3>
+                <p>Students are asked to stand in non-decreasing order of heights for an annual photo.
+                    Return the minimum number of students that must move in order for all students to be standing in non-decreasing order of height.
+                    Notice that when a group of students is selected they can reorder in any possible way between themselves and the non 
+                    selected students remain on their seats.</p>
+                <img src = "img/1051.jpg">
+            </div>
+            <div id = "14">
+                <h3>1395. Count Number of Teams</h3>
+                <p>There are n soldiers standing in a line. Each soldier is assigned a unique rating value.
+                    You have to form a team of 3 soldiers amongst them under the following rules:
+                    Choose 3 soldiers with index (i, j, k) with rating (rating[i], rating[j], rating[k]).
+                    A team is valid if: (rating[i] < rating[j] < rating[k]) or (rating[i] > rating[j] > rating[k])
+                     where (0 <= i < j < k < n).</p>
+                <p>Return the number of teams you can form given the conditions. (soldiers can be part of multiple teams).</p>
+                <p>Runtime: 840 ms, faster than 80.14% of Python3 online submissions for Count Number of Teams.</p>
+                <p>Memory Usage: 14.5 MB, less than 58.54% of Python3 online submissions for Count Number of Teams.</p>
+                <img src = "img/1395.jpg">
+            </div>
+            <div id = "15">
+                <h3>1487. Making File Names Unique</h3>
+                <p>Given an array of strings names of size n. You will create n folders in your file system such that, at the ith minute, you will create a folder with the name names[i].
+                    Since two files cannot have the same name, if you enter a folder name which is previously used, the system will have a suffix addition to its 
+                    name in the form of (k), where, k is the smallest positive integer such that the obtained name remains unique.</p>  
+                <p>Return an array of strings of length n where ans[i] is the actual name the system will assign to the ith folder when you create it.
+                </p>
+                <p>Memory Usage: 27 MB, less than 79.84% of Python3 online submissions for Making File Names Unique.</p>
+                <img src = "img/1487.jpg">
+            </div>
+            <div id = "16">
+                <h3>1769. Minimum Number of Operations to Move All Balls to Each Box</h3>
+                <p>You have n boxes. You are given a binary string boxes of length n, where boxes[i] is '0' if the ith box is empty, and '1' if it contains one ball.
+                    In one operation, you can move one ball from a box to an adjacent box. Box i is adjacent to box j if abs(i - j) == 1. Note that after doing so, there may be more than one         ball in some boxes.
+                    Return an array answer of size n, where answer[i] is the minimum number of operations needed to move all the balls to the ith box.
+                    Each answer[i] is calculated considering the initial state of the boxes.</p>
+                <p>Runtime: 88 ms, faster than 100.00% </p>
+                <p>Memory Usage: 42.6 MB, less than 100.00% </p>
+                
+                <img src = "img/1769.jpg">
+            </div>
+
+         </main>
+         <footer>
+        
+            <a href="#top" >/top</a>
+         </footer>
+      </div>
+   </body>
+</html>
